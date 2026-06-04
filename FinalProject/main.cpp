@@ -1,10 +1,7 @@
-// Your implementation of Fluid Simulation.
-
 #include "Assets/bundled.h"
 #include "Labs/FinalProject/App.h"
 
 int main() {
-    // make linker happy
     using namespace VCX;
     return Engine::RunApp<Labs::FluidSimulation::App>(Engine::AppContextOptions {
         .Title         = "VCX-sim Lab4: Final Project - Coupled Fluid-Rigid Simulation",
